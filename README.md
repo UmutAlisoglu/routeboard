@@ -4,7 +4,9 @@
 
 Turn a process into an interactive guide. Write the steps, add choices, connect their destinations, and try the route as a reader. Then export one HTML file someone else can open offline.
 
-[Open Routeboard](https://alisoglu.com/routeboard/) · [Portable download](https://github.com/UmutAlisoglu/routeboard/releases/latest) · [Feedback](https://github.com/UmutAlisoglu/routeboard/issues)
+**[Download the portable app](https://github.com/UmutAlisoglu/routeboard/releases/latest)** (unzip, open `index.html`, works offline) · [Feedback](https://github.com/UmutAlisoglu/routeboard/issues)
+
+There is no hosted version at the moment. The portable download is the way to use Routeboard.
 
 ## A few uses
 
@@ -48,7 +50,7 @@ Imported JSON is validated, bounded, and copied into the editor’s data model. 
 
 ## Privacy
 
-The editor uses page memory and makes no upload, analytics, font or account requests. It saves no project history to cookies, localStorage or IndexedDB. The online app is hosted on GitHub Pages, which receives ordinary connection information when serving its public files. The portable download works with the network disconnected.
+The editor uses page memory and makes no upload, analytics, font or account requests. It saves no project history to cookies, localStorage or IndexedDB. The portable download works with the network disconnected.
 
 Project JSON includes every step, including drafts. Shared HTML includes only connected steps. These files contain the text you include; send them to the intended readers. Saved downloads remain wherever you save them.
 
